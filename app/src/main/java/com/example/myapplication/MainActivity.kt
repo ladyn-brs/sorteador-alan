@@ -21,13 +21,11 @@ class MainActivity : AppCompatActivity() {
         }
 
     }
-    fun sortear(view: view){
-        val textResultado = findViewById<TestView>(R. id. textResultado)
+    fun sortear(view: View){
+        val textResultado = findViewById<TextView>(R.id.textResultado)
         val numero = Random.nextInt(11) //de 0 a 10
-<<<<<<< HEAD
+
         textResultado.setText("Numero sorteado: $numero")
-=======
         textResultado.setText("Casal Sorteado: $numero")
->>>>>>> 14683023d970a77186db68427898bea66a311f69
     }
 }
